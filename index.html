@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+		Lambton College
+		CSD 2103 - Front End Web Development II
+		Term project
+		Hugo Beltran Escarraga - C0845680
+		Juan Luis Casanova Romero - C0851175
+-->
+		
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>G1 Practice Test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>G1 Driver License Knowledge Practice Test</h1>
+    </header>
+
+    <main>
+      <form id="test-form" action="test.html" method="GET">
+
+        <div class="contact-information">
+          
+          <h2>Sign up</h2>
+          <div class="form-group">
+            <label for="user-name">Name</label>&nbsp;&nbsp;<span id="user-name-error" class="danger"></span>
+            <input type="text" id="user-name" name="user-name" size="30" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>&nbsp;&nbsp;<span id="email-error" class="danger"></span>
+            <input type="email" id="email" name="email" size="30" placeholder="Enter your email address">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>&nbsp;&nbsp;<span id="phone-error" class="danger"></span>
+            <input type="tel" id="phone" name="phone" size="30" placeholder="Enter your Telephone number">
+          </div>
+        </div>
+  
+        <div class="test-configuration">
+
+          <h2>Configure your test</h2>
+          <div class="form-group">
+            <label for="rules-questions">Rules</label>
+            <select name="rules-questions" id="rules-questions">
+              <option value="5" selected>5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="signs-questions">Signs</label>
+            <select name="signs-questions" id="signs-questions">
+              <option value="5" selected>5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="random" name="random">
+            <label for="random">Random</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="sendEmail" name="sendEmail">
+            <label for="sendEmail">Send my score by email</label>
+          </div>
+        </div>
+        
+        <div class="submit-button">
+          <input class="primary" type="button" id="submit-btn" value="Go for it">
+        </div>
+        
+      </form>
+      
+      <div class="about-us" id="about-us">
+        <h3>About Us</h3>
+        <div class="info" id="info">
+          <p>Developed by Hugo Beltran & Juan Casanova</p>
+          <p>for CSD 2103 Front End Web Development II Term Project</p>
+          <p>Copyright &copy; 2022</p>
+        </div>
+      </div>
+    </main>
+    
+  </div>
+
+</body>
+</html>

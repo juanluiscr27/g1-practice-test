@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+		Lambton College
+		CSD 2103 - Front End Web Development II
+		Term project
+		Hugo Beltran Escarraga - C0845680
+		Juan Luis Casanova Romero - C0851175
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/test.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>G1 Practice Test - Questions</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Driver License Knowledge Test</h1>
+    </header>
+
+    <main>
+      <div class="info-bar">
+        <div class="question-category">
+          <p id="category"></p>
+        </div>
+        <div class="quiz-progress">
+          <p id="progress"><span id="correct">Correct: 0</span> &nbsp;<span id="incorrect">Incorrect: 0</span></p> 
+        </div>
+      </div>
+
+      <div class="quiz">
+        <div class="question">
+          <p id="text"></p>
+          <div class="image">
+            <img src="images/no-pedestrians.jpg" alt="reference image">
+          </div>
+        </div>
+        
+        <div class="answers">
+          <div class="answer-group">
+            <input class="answer-radio" type="radio" name="answer-radio" id="answer-a">
+            <label class="answer-label" for="answer-a" id="answer-a-text"></label>
+          </div>
+          <div class="answer-group">
+            <input class="answer-radio" type="radio" name="answer-radio" id="answer-b">
+            <label class="answer-label" for="answer-b" id="answer-b-text"></label>
+          </div>
+          <div class="answer-group">
+            <input class="answer-radio" type="radio" name="answer-radio" id="answer-c">
+            <label class="answer-label" for="answer-c" id="answer-c-text"></label>
+          </div>
+          <div class="answer-group">
+            <input class="answer-radio" type="radio" name="answer-radio" id="answer-d">
+            <label class="answer-label" for="answer-d" id="answer-d-text"></label>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <div class="skip-button">
+            <input class="primary" type="button" id="skip-btn" value="Skip Question">
+          </div>
+          <div class="submit-button">
+            <input class="success" type="button" id="submit-btn" value="Submit Answer">
+          </div>
+        </div>
+        <div class="answer-explanation">
+          <p id="explanation"></p>
+        </div>
+        
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="js/test.js"></script>
+</body>
+</html>

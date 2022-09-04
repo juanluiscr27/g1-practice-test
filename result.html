@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+		Lambton College
+		CSD 2103 - Front End Web Development II
+		Term project
+		Hugo Beltran Escarraga - C0845680
+		Juan Luis Casanova Romero - C0851175
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/result.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>G1 Practice Test - Results</title> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/result.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Driver License Knowledge Test</h1>
+    </header>
+
+    <main>
+        <div class="result-header">
+          <h2>Results</h2>
+          <div class="return-button">
+            <input class="primary" type="button" id="return-btn" value="Try Again">
+          </div>
+        </div>
+        <div class="result-description">
+          <table class="result-table">
+            <tr class="table-header">
+              <th></th>
+              <th>Rules</th>
+              <th>Signs</th>
+              <th>Total</th>
+            </tr>
+            <tr id="correct-row">
+              <th>Correct:</th>
+              <td id="correct-rules"></td>
+              <td id="correct-signs"></td>
+              <td id="correct-total"></td>
+            </tr>
+            <tr id="incorrect-row">
+              <th>Incorrect:</th>
+              <td id="incorrect-rules"></td>
+              <td id="incorrect-signs"></td>
+              <td id="incorrect-total"></td>
+            </tr>
+            <tr id="percentage-row">
+              <th>Percentage:</th>
+              <td id="percentage-rules"></td>
+              <td id="percentage-signs"></td>
+              <td id="percentage-total"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="pie-chart">
+          <canvas id="myChart" style="width:100%; max-width:600px"></canvas>
+        </div>
+    </main>
+
+  </div>
+  
+</body>
+</html>

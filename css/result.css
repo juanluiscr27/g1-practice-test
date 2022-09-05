@@ -1,0 +1,71 @@
+/*
+ *		Lambton College
+ *		CSD 2103 - Front End Web Development II
+ *		Term project
+ *		Hugo Beltran Escarraga - C0845680
+ *		Juan Luis Casanova Romero - C0851175
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+ body {
+  font-family: 'Inter', sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  width: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 20px;
+  background: #fff;
+  width: 100%;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px 4px 0 0;
+}
+
+.result-header input {
+  width: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #0778d2; 
+  transition: 250ms ease all;
+}
+
+.result-description {
+  display: flex;
+  padding: 10px 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.result-table {
+  width: 80%;
+}
+
+.pie-chart {
+  display: flex;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+}

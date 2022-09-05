@@ -1,1 +1,487 @@
+{
+  "version": "0.0.1.0",
+  "date": "2022-07-12",
+  "questions": {
+    "1": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/emergency-response-sign.jpg",
+      "answers": [{
+          "text": "Shows alternative routes for the same destination with their respective timings.",
+          "isCorrect": true
+        },
+        {
+          "text": "Shows the distance for the mentioned town or city on the road",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows unpaved routes to the mentioned cities or towns",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows pedestrian control information",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Emergency response signs are information signs which include a numbering system along the bottom of the sign to assist emergency vehicles and drivers in determining an appropriate route."
+    },
+    "2": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/long-commercial-vehicle.jpg",
+      "answers": [{
+          "text": "Shows on the back of long commercial vehicles usually of 40 m in length",
+          "isCorrect": true
+        },
+        {
+          "text": "Shows route to the nearest Cargo place",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows long commercial vehicle parking",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows that the Long commercial vehicles is prohibited in this road",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "This placard identifies a long commercial vehicle, which is a double trailer and can be up to 40 metres in length."
+    },
+    "3": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/bilingual-sign.jpg",
+      "answers": [{
+          "text": "These are bilingual signs conveying messages like No standing, School bus turning",
+          "isCorrect": true
+        },
+        {
+          "text": "These are for driving instructions",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows only Construction zone related information",
+          "isCorrect": false
+        },
+        {
+          "text": "These are for directing drivers to off-road facilities",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Watch for bilingual signs when driving in designated bilingual areas. Read the messages in the language you understand best."
+    },
+    "4": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/slow-moving-vehicle.jpg",
+      "answers": [{
+          "text": "Shows slow-moving vehicle usually under 40 km/h",
+          "isCorrect": true
+        },
+        {
+          "text": "Shows fast-moving vehicle usually above 40 km/h",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows Long commercial vehicle usually of 40 meter in length",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows stopped vehicle within the road",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The slow-moving vehicle sign is an orange triangle with a red border. It alerts other drivers that the vehicle ahead will be travelling at 40 km/h or less."
+    },
+    "5": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/emergency-detour-route.jpg",
+      "answers": [{
+          "text": "Shows alternative routes to drivers during unscheduled closure of provincial highway",
+          "isCorrect": true
+        },
+        {
+          "text": "Shows direction to the cities or towns",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows speed limit in the provincial highway",
+          "isCorrect": false
+        },
+        {
+          "text": "Shows traffic control information",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Emergency Detour Route signs are used during the unscheduled closure of a provincial highway when Ontario Provincial Police detour all traffic off the highway."
+    },
+    "6": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/high-occupancy-vehicle.jpg",
+      "answers": [{
+          "text": "Reserved lane for public vehicle like buses or car carrying mentioned passengers count",
+          "isCorrect": true
+        },
+        {
+          "text": "Restricted lane for passenger vehicles",
+          "isCorrect": false
+        },
+        {
+          "text": "High speed lane",
+          "isCorrect": false
+        },
+        {
+          "text": "Reserved lane for ambulance",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When a High Occupancy Vehicle (HOV) signs, only public vehicles such as buses, or passenger vehicles carrying a specified minimum number of passengers, may use this lane."
+    },
+    "7": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/hov-do-not-cross.jpg",
+      "answers": [{
+          "text": "Vehicles cannot change lanes into or out in the area between these signs",
+          "isCorrect": true
+        },
+        {
+          "text": "Vehicles can change lanes into or out in the area ahead",
+          "isCorrect": false
+        },
+        {
+          "text": "Restricted lane for pedestrians",
+          "isCorrect": false
+        },
+        {
+          "text": "Lane specific for Bicycles",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Vehicles cannot change lanes into or out of a high-occupancy vehicle lane in this area."
+    },
+    "8": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/no-pedestrians.jpg",
+      "answers": [{
+          "text": "No pedestrian allowed in this road",
+          "isCorrect": true
+        },
+        {
+          "text": "No vehicles allowed in this road",
+          "isCorrect": false
+        },
+        {
+          "text": "No bicycles allowed in this road",
+          "isCorrect": false
+        },
+        {
+          "text": "No crosswalk in the area ahead",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A regulatory sign indicates pedestrians are not allowed on this road."
+    },
+    "9": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/app-parking.jpg",
+      "answers": [{
+          "text": "Parking for vehicles having accessible parking permit",
+          "isCorrect": true
+        },
+        {
+          "text": "Parking is prohibited in this area",
+          "isCorrect": false
+        },
+        {
+          "text": "Ambulance parking area",
+          "isCorrect": false
+        },
+        {
+          "text": "Parking prohibited for disabled persons",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A regulatory sign showing a parking space is only for vehicles displaying a valid Accessible Parking Permit."
+    },
+    "10": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/keep-to-the-right.jpg",
+      "answers": [{
+          "text": "Drivers must keep right of the traffic island",
+          "isCorrect": true
+        },
+        {
+          "text": "Drivers must keep left of the traffic island",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must take the left turn",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must take the right turn",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A regulatory sign for when you must keep to the right of the traffic island."
+    },
+    "11": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/school-bus-loading-zone.jpg",
+      "answers": [{
+          "text": "Zone where school buses load or unload students without signaling",
+          "isCorrect": true
+        },
+        {
+          "text": "School Zone ahead",
+          "isCorrect": false
+        },
+        {
+          "text": "Bus Stop ahead",
+          "isCorrect": false
+        },
+        {
+          "text": "There is a Parking for school buses only",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A regulatory which marks a zone within which school buses load or unload passengers without using the red alternating lights and stop arm."
+    },
+    "12": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/no-turn-right.jpg",
+      "answers": [{
+          "text": "Drivers must not take right turn when facing red light at intersection",
+          "isCorrect": true
+        },
+        {
+          "text": "Drivers must take right turn when facing red light at intersection",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers can go straight when facing a red light at intersection",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must come to a complete stop when facing red light at intersection",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Drivers must not take right turn when facing red light at intersection."
+    },
+    "13": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/parking-allowed.jpg",
+      "answers": [{
+          "text": "Drivers can only park their vehicle during the mentioned time",
+          "isCorrect": true
+        },
+        {
+          "text": "Drivers can only park their vehicles during other than the time mentioned",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers cannot park their vehicles in this area",
+          "isCorrect": false
+        },
+        {
+          "text": "This is a private parking area",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Drivers can only park their vehicle during the mentioned time."
+    },
+    "14": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/no-turn-left.jpg",
+      "answers": [{
+          "text": "Drivers must not take left turn during the time mentioned",
+          "isCorrect": true
+        },
+        {
+          "text": "Drivers must take left turn during the time mentioned",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must take left turn other than the time mentioned",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must not take left turn other than the time mentioned",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Drivers must not take left turn during the time mentioned."
+    },
+    "15": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/community-zone.jpg",
+      "answers": [{
+          "text": "There is a community zone ahead ; Special risk of pedestrians in the area",
+          "isCorrect": true
+        },
+        {
+          "text": "There is a construction zone ahead : Special risk of workers in the area",
+          "isCorrect": false
+        },
+        {
+          "text": "There is Hospital zone ahead : Special risk of patients in the area",
+          "isCorrect": false
+        },
+        {
+          "text": "There is police station ahead : Specials risk of pedestrians in the area",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "There is a community zone ahead ; Special risk of pedestrians in the area."
+    },
+    "16": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/crossing-zone.jpg",
+      "answers": [{
+          "text": "There is a speed limit in the area ahead when lights are flashing",
+          "isCorrect": true
+        },
+        {
+          "text": "The 40km/hr is the lowest maximum speed limit in the area ahead when flashing",
+          "isCorrect": false
+        },
+        {
+          "text": "The flashing indicates the oncoming of train in the railway crossing the road ahead",
+          "isCorrect": false
+        },
+        {
+          "text": "There is a speed limit in the area ahead when lights are not flashing",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "There is a speed limit in the area ahead when lights are flashing."
+    },
+    "17": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/no-parking.jpg",
+      "answers": [{
+          "text": "Drivers cannot park in the area between these signs",
+          "isCorrect": true
+        },
+        {
+          "text": "Drivers must not stop their vehicle in the area between these signs",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers can park their vehicles in the area between these signs",
+          "isCorrect": false
+        },
+        {
+          "text": "Bicycles can only park in the area between these signs, not four wheel vehicles",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Drivers cannot park in the area between these signs."
+    },
+    "18": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/speed-limit-ahead.jpg",
+      "answers": [{
+          "text": "There is a speed limit of 50 km/hr in the area ahead",
+          "isCorrect": true
+        },
+        {
+          "text": "Ending of a Speed limit zone",
+          "isCorrect": false
+        },
+        {
+          "text": "There is a speed limit for longer vehicles usually 40m in length",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must keep their vehicles speed above 50 km/hr in the area ahead",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "There is a speed limit of 50 km/hr in the area ahead."
+    },
+    "19": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/lane-turns.jpg",
+      "answers": [{
+          "text": "Driver on 1st lane must turn left, on 2nd lane must turn left or go straight, on 3rd lane must turn right",
+          "isCorrect": true
+        },
+        {
+          "text": "Driver on 1st lane must go straight, on 2nd lane must turn right, on 3rd lane must turn left",
+          "isCorrect": false
+        },
+        {
+          "text": "Driver on 1st lane must turn right, on 2nd lane must turn left, on 3rd lane must go straight",
+          "isCorrect": false
+        },
+        {
+          "text": "Driver on 1st lane must go straight or turn right, on 2nd lane must turn right, on 3rd lane must turn left",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Driver on 1st lane must turn left, on 2nd lane must turn left or go straight, on 3rd lane must turn right."
+    },
+    "20": {
+      "text": "What does this sign mean?",
+      "category": "sign",
+      "presentation": "image",
+      "reference": "images/hazardous-substances.jpg",
+      "answers": [{
+          "text": "Any vehicle contain hazardous substances or toxins is permitted in this road",
+          "isCorrect": true
+        },
+        {
+          "text": "Any vehicle contain hazardous substances or toxins is prohibited in this road",
+          "isCorrect": false
+        },
+        {
+          "text": "There is permit of passing other vehicles in this road",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers must not drive on the left lane",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Any vehicle contain hazardous substances or toxins is permitted in this road."
+    }
+  }
+}
 

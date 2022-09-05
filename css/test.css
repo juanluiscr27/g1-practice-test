@@ -1,0 +1,169 @@
+/*
+ *		Lambton College
+ *		CSD 2103 - Front End Web Development II
+ *		Term project
+ *		Hugo Beltran Escarraga - C0845680
+ *		Juan Luis Casanova Romero - C0851175
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+ body {
+  font-family: 'Inter', sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  width: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 20px;
+  background: #fff;
+  width: 100%;
+}
+
+.info-bar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px 4px 0 0;
+}
+
+.question-category {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.quiz-progress {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+#correct {
+  color: #01A775;
+}
+
+#incorrect {
+  color: #db2e3f;
+}
+
+.question {
+  padding: 20px;
+  display: flex;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.image {
+  display: none;
+}
+
+.answers {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.answer-group {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.85em;
+}
+
+.answer-group div.danger {
+  height: 16px;
+  width: 16px;
+  margin-top: 0.25em;
+  margin-left: 10px;
+  background-color: #db2e3f;
+  -webkit-mask: url(../images/clipboard-x-fill.svg) no-repeat center;
+  mask: url(../images/clipboard-x-fill.svg) no-repeat center;
+}
+
+.answer-group div.success {
+  height: 16px;
+  width: 16px;
+  margin-top: 0.25em;
+  margin-left: 10px;
+  background-color: #01A775;
+  -webkit-mask: url(../images/clipboard-check-fill.svg) no-repeat center;
+  mask: url(../images/clipboard-check-fill.svg) no-repeat center;
+}
+
+.answer-label {
+  margin-left: 0.45em;
+}
+
+.answer-label.danger {
+  color: #db2e3f;
+}
+
+.answer-label.success {
+  color: #01A775;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+}
+
+.button-group input {
+  width: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #0778d2; 
+  transition: 250ms ease all;
+}
+
+.submit-button {
+  display: none;
+}
+
+.button-group input:hover {
+  background-color: #005CC8;
+}
+
+.button-group input:focus {
+  transform: scale(0.98);
+}
+
+.answer-explanation {
+  display: none;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.answer-explanation.danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #db2e3f;
+}
+.answer-explanation.success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}

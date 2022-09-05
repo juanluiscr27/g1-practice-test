@@ -1,1 +1,487 @@
+{
+  "version": "0.0.1.0",
+  "date": "2022-07-12",
+  "questions": {
+    "1": {
+      "text": "To get your vehicle out of a skid, you should first:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Steer in the direction you want to go.",
+          "isCorrect": true
+        },
+        {
+          "text": "Steer straight ahead",
+          "isCorrect": false
+        },
+        {
+          "text": "Steer in the opposite direction of the skid.",
+          "isCorrect": false
+        },
+        {
+          "text": "Apply brakes hard.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To get your vehicle out of a skid, you should first steer in the direction you want to go."
+    },
+    "2": {
+      "text": "When may you lend your driver’s licence?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "It is not permitted.",
+          "isCorrect": true
+        },
+        {
+          "text": "In emergencies.",
+          "isCorrect": false
+        },
+        {
+          "text": "To a person learning to drive.",
+          "isCorrect": false
+        },
+        {
+          "text": "For identification purposes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "You should not lend your driver’s license."
+    },
+    "3": {
+      "text": "What must a driver do before entering a highway from a private road or driveway?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Yield right-of-way to all vehicles approaching on the highway.",
+          "isCorrect": true
+        },
+        {
+          "text": "Enter or cross the highway as quickly as possible.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sound horn and proceed with caution.",
+          "isCorrect": false
+        },
+        {
+          "text": "Give hand signal then take right-of-way.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Before entering a highway from a private road or driveway a driver must yield right-of-way to all vehicles approaching on the highway."
+    },
+    "4": {
+      "text": "Never change lanes in traffic without:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Giving proper signal and looking to make sure the move can be made safely.",
+          "isCorrect": true
+        },
+        {
+          "text": "Looking in the rear view mirror only.",
+          "isCorrect": false
+        },
+        {
+          "text": "Blowing your horn and looking to the rear.",
+          "isCorrect": false
+        },
+        {
+          "text": "Decreasing speed and giving correct signal.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When changing lanes in traffic always give the proper signal and look to make sure your move can be made safely."
+    },
+    "5": {
+      "text": "When the driver of another vehicle is about to overtake and pass your vehicle, you must:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Move to the right and allow such vehicle to pass.",
+          "isCorrect": true
+        },
+        {
+          "text": "Speed up so that passing is not necessary.",
+          "isCorrect": false
+        },
+        {
+          "text": "Move to the left to prevent passing.",
+          "isCorrect": false
+        },
+        {
+          "text": "Signal to the other driver not to pass.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When the driver of another vehicle is about to overtake and pass your vehicle, you must move to the right and allow his/her vehicle to pass."
+    },
+    "6": {
+      "text": "When you are deciding whether or not to make a U-turn, your first consideration should be to check:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Traffic regulations.",
+          "isCorrect": true
+        },
+        {
+          "text": "Presence of trees, fire hydrants or poles near the curb.",
+          "isCorrect": false
+        },
+        {
+          "text": "Turning radius of your car.",
+          "isCorrect": false
+        },
+        {
+          "text": "Height of curb.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When you are deciding whether or not to make a U-turn, your first consideration should be to check the traffic regulations."
+    },
+    "7": {
+      "text": "It is more dangerous to drive at the maximum speed limit at night than during daytime as:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "You cannot see as far ahead at night.",
+          "isCorrect": true
+        },
+        {
+          "text": "Your reaction time is slower at night.",
+          "isCorrect": false
+        },
+        {
+          "text": "Some drivers unlawfully drive with parking lights only.",
+          "isCorrect": false
+        },
+        {
+          "text": "The roadways are more apt to be slippery at night.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "It is more dangerous to drive at the maximum speed limit at night than during the daytime because you cannot see as far ahead at night."
+    },
+    "8": {
+      "text": "You should under all conditions drive at a speed which will allow you to:",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Stop within a safe distance.",
+          "isCorrect": true
+        },
+        {
+          "text": "Stop within 150 metres (500 feet).",
+          "isCorrect": false
+        },
+        {
+          "text": "Stop within 90 metres (300 feet).",
+          "isCorrect": false
+        },
+        {
+          "text": "Stop within 60 metres (200 feet).",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Under all conditions you should drive at a speed that will allow you to stop within a safe distance"
+    },
+    "9": {
+      "text": "At what times must a driver accompany you in the front passenger seat if you are driving with a learner's license?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "At all times",
+          "isCorrect": true
+        },
+        {
+          "text": "During the hours of darkness",
+          "isCorrect": false
+        },
+        {
+          "text": "At peak traffic times",
+          "isCorrect": false
+        },
+        {
+          "text": "On high speed highways",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When you are you are driving with a learner's license, a graduated driver must accompany you in the front passenger seat all the time."
+    },
+    "10": {
+      "text": "In what amount of time must you inform the Ministry of Transportation if a licensed driver changes their name or address?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Within 6 days",
+          "isCorrect": true
+        },
+        {
+          "text": "At any time prior to the license renewal date",
+          "isCorrect": false
+        },
+        {
+          "text": "Within 28 days",
+          "isCorrect": false
+        },
+        {
+          "text": "Within 12 days",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "When you as a licensed driver change your name or address you must inform the Ministry of Transportation within 6 days."
+    },
+    "11": {
+      "text": "If there is median on the road, when do you need to stop for a school bus?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "If you are behind it and it has red lights flashing",
+          "isCorrect": true
+        },
+        {
+          "text": "If you are approaching it",
+          "isCorrect": false
+        },
+        {
+          "text": "Any time it is stopped",
+          "isCorrect": false
+        },
+        {
+          "text": "At no time",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "If you are behind it and it has red lights flashing."
+    },
+    "12": {
+      "text": "What does having an Accessible Parking Permit do?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "A vehicle carrying the person to whom it was issued to use a designated disabled parking space",
+          "isCorrect": true
+        },
+        {
+          "text": "A designated parking space to be used by any vehicle showing the permit",
+          "isCorrect": false
+        },
+        {
+          "text": "The holder to park anywhere",
+          "isCorrect": false
+        },
+        {
+          "text": "The holder’s family members to use designated spaces",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A vehicle carrying the person to whom it was issued to use a designated disabled parking space."
+    },
+    "13": {
+      "text": "How much visibility do you need to be able to make a U-turn?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "150 metres",
+          "isCorrect": true
+        },
+        {
+          "text": "125 metres",
+          "isCorrect": false
+        },
+        {
+          "text": "50 metres",
+          "isCorrect": false
+        },
+        {
+          "text": "250 metres",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "150 metres."
+    },
+    "14": {
+      "text": "How much authority do signs giving instructions around roadwork have?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Legally enforceable",
+          "isCorrect": true
+        },
+        {
+          "text": "Only applicable to site traffic",
+          "isCorrect": false
+        },
+        {
+          "text": "Optional",
+          "isCorrect": false
+        },
+        {
+          "text": "Only applicable to large vehicles",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Legally enforceable."
+    },
+    "15": {
+      "text": "If you fail to stay at the scene of an accident, how many points could you get on your license?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "7",
+          "isCorrect": true
+        },
+        {
+          "text": "9",
+          "isCorrect": false
+        },
+        {
+          "text": "3",
+          "isCorrect": false
+        },
+        {
+          "text": "11",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "7."
+    },
+    "16": {
+      "text": "What is the area that you are unable to see in your rear and side-view mirrors?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Blind spot",
+          "isCorrect": true
+        },
+        {
+          "text": "Dark area",
+          "isCorrect": false
+        },
+        {
+          "text": "Danger zone",
+          "isCorrect": false
+        },
+        {
+          "text": "Safe zone",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Blind spot."
+    },
+    "17": {
+      "text": "What does overdriving your headlights mean?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Driving so fast that your stopping distance is farther than you can see with your headlights",
+          "isCorrect": true
+        },
+        {
+          "text": "Using your headlights when unnecessary",
+          "isCorrect": false
+        },
+        {
+          "text": "Flashing your headlights constantly",
+          "isCorrect": false
+        },
+        {
+          "text": "Driving with high beam headlights at all times",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Driving so fast that your stopping distance is farther than you can see with your headlights."
+    },
+    "18": {
+      "text": "What does a red X over a driving lane mean?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "A driver must not enter or remain in that lane",
+          "isCorrect": true
+        },
+        {
+          "text": "It applies to pedestrians only",
+          "isCorrect": false
+        },
+        {
+          "text": "Drivers in that lane must stop immediately",
+          "isCorrect": false
+        },
+        {
+          "text": "It indicates traffic lights ahead",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A driver must not enter or remain in that lane."
+    },
+    "19": {
+      "text": "If you are exiting a freeway, what should you do?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Signal, move into the deceleration lane, reduce speed gradually and obey exit signs",
+          "isCorrect": true
+        },
+        {
+          "text": "Signal and then stop to wait for an opening in traffic",
+          "isCorrect": false
+        },
+        {
+          "text": "Do what the vehicle ahead of you does",
+          "isCorrect": false
+        },
+        {
+          "text": "Signal, and then accelerate while merging smoothly into traffic and then proceed to the exit lane",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Signal, move into the deceleration lane, reduce speed gradually and obey exit signs."
+    },
+    "20": {
+      "text": "If your brakes fail, what should you do?",
+      "category": "rules",
+      "presentation": "text",
+      "reference": "",
+      "answers": [{
+          "text": "Pump the brakes rapidly and shift into a lower gear",
+          "isCorrect": true
+        },
+        {
+          "text": "Wave down the nearest police officer and shout for help",
+          "isCorrect": false
+        },
+        {
+          "text": "Firmly press down on your brakes until they re-engage",
+          "isCorrect": false
+        },
+        {
+          "text": "Use your emergency brake and sound your horn to warn other drivers while looking for a soft collision point",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Pump the brakes rapidly and shift into a lower gear."
+    }
+  }
+}
 
